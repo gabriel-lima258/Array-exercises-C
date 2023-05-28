@@ -91,9 +91,9 @@ int main()
     double minTemperature = minTemperatura(temperatura);
     double mediaTemperature = calcularMedia(temperatura);
 
-    cout << "Temperatura máxima do mês: " << maxTemperature << endl;
-    cout << "Temperatura mínima do mês: " << minTemperature << endl;
-    cout << "Temperatura média do mês: " << mediaTemperature << endl;
+    cout << "Temperatura mÃ¡xima do mÃªs: " << maxTemperature << endl;
+    cout << "Temperatura mÃ­nima do mÃªs: " << minTemperature << endl;
+    cout << "Temperatura mÃ©dia do mÃªs: " << mediaTemperature << endl;
 
     return 0;
 }
