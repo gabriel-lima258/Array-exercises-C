@@ -29,9 +29,9 @@ int main() {
 
     int m, n;
 
-    cout << "Digite o número de linhas da matriz: ";
+    cout << "Digite o nÃºmero de linhas da matriz: ";
     cin >> m;
-    cout << "Digite o número de colunas da matriz: ";
+    cout << "Digite o nÃºmero de colunas da matriz: ";
     cin >> n;
 
     int matriz[MAX][MAX];
@@ -49,14 +49,14 @@ int main() {
 
     separarElementos(matriz, m, n, pos1, pos2, tamanho1, tamanho2);
 
-    cout << "Elementos nas posições pares:" << endl;
+    cout << "Elementos nas posiÃ§Ãµes pares:" << endl;
     for (int i = 0; i < tamanho1; i++){
-        cout << "Posição: " << i << ", Valor: " << pos1[i] << endl;
+        cout << "PosiÃ§Ã£o: " << i << ", Valor: " << pos1[i] << endl;
     }
 
-    cout << "Elementos nas posições impares:" << endl;
+    cout << "Elementos nas posiÃ§Ãµes impares:" << endl;
     for (int j = 0; j < tamanho2; j++){
-        cout << "Posição: " << j << ", Valor: " << pos2[j] << endl;
+        cout << "PosiÃ§Ã£o: " << j << ", Valor: " << pos2[j] << endl;
     }
 
     return 0;
