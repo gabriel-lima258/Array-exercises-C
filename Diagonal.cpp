@@ -70,7 +70,7 @@ int main()
     valorSoma = outDiagonal(matriz);
 
     cout << "\nO valor do produto diagonal = "<< valorDiagonal << endl;
-    cout << "O valor da soma diagonal = "<< valorSoma << endl;
+    cout << "O valor da soma dos elementos fora da diagonal = "<< valorSoma << endl;
 
     return 0;
 }
